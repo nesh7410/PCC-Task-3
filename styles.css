@@ -1,0 +1,172 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:"Overpass";
+    background-color: hsl(216, 12%, 8%);
+}
+
+.star-box{
+    height: 3rem;
+    width: 3rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    padding-top: 0.3rem;
+    padding-left: 0.5rem;
+    background-color: hsl(217, 12%, 30%);
+    border-radius: 100%;
+}
+
+.star{
+    height: 2rem;
+    width: 2rem;
+    
+}
+
+.container{
+    max-width: 400px;
+    max-height: 450px;
+    min-width: 350px;
+    width: 45%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 2rem;
+}
+
+
+h1{
+    padding: 2rem 1rem;
+    color: hsl(0, 0%, 100%);
+}
+
+p{
+    padding: 0rem 1rem;
+    color: hsl(217, 12%, 63%);
+}
+
+.btn{
+    padding: 2rem 1rem;
+    display: flex;
+
+    gap: 2rem;
+}
+
+@media screen and (max-width: 400px){
+    .btn{
+        gap: 1rem;
+    }
+
+    .rating{
+        margin-left:3rem;
+    }
+
+    .msg-2{
+        margin-left: 0rem;
+    }
+}
+
+.buttons{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    border: none;
+    background-color: hsl(212, 20%, 25%);
+    color: hsl(219, 20%, 66%);
+    
+}
+
+.buttons:hover{
+    background-color: hsl(215, 11%, 60%);
+    color: aliceblue;
+}
+
+.buttons:focus{
+    background-color: orange;
+    color: aliceblue;
+}
+
+.submit{
+    margin: 1rem;
+    border-radius: 4rem;
+    height: 4rem;
+    width: 90%;
+    color: orange;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.submit:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+
+/* Container 2 */
+
+.container2{
+    display: none;
+    max-width: 400px;
+    max-height: 450px;
+    min-width: 350px;
+    width: 45%;
+    height: 70%;
+    flex-direction: column;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 2rem;
+}
+
+.thank{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thank img{
+    height: 7rem;
+    width: 9rem;
+    margin: 2rem;
+    margin-top: 3.5rem;
+}
+
+.msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(212, 20%, 25%);
+    width: 60%;
+    margin-left:6rem;
+    border-radius: 4rem;
+    height: 2rem;
+}
+
+.rating-info{
+    color: orange;
+}
+
+.msg-2{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3rem;
+}
