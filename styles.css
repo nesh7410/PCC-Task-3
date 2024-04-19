@@ -64,7 +64,7 @@ p{
     gap: 2rem;
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 370px){
     .btn{
         gap: 1rem;
     }
