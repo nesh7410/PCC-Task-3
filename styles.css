@@ -64,18 +64,11 @@ p{
     gap: 2rem;
 }
 
-@media screen and (max-width: 370px){
+@media screen and (max-width: 500px){
     .btn{
         gap: 1rem;
     }
 
-    .rating{
-        margin-left:3rem;
-    }
-
-    .msg-2{
-        margin-left: 0rem;
-    }
 }
 
 .buttons{
@@ -152,21 +145,29 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
+    
+}
+.inner{
+    display: flex;
+    
     background-color: hsl(212, 20%, 25%);
-    width: 60%;
-    margin-left:6rem;
     border-radius: 4rem;
     height: 2rem;
+    align-items: center;
 }
 
 .rating-info{
     color: orange;
 }
-
-.msg-2{
-    width: 80%;
+.outer{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 3rem;
+}
+.msg-2{
+    display: flex;
+    width: 36vh;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
